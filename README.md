@@ -1,7 +1,9 @@
 Inside the src/main folder I've created two classes which are entity classes which are going to represent the tables named FoodItems and Orders in the foodDeliveryApp database specified in pom.xml file.
 
-In the first class i.e in the FoodItem class I've used the feilds such as  :-
 _____________________________________________________________________________________
+
+In the first class i.e in the FoodItem class I've used the feilds such as  :-
+
 -> id - to represent the primary key column of the table with the help of @Id annotation.<br>
 -> name - to hold the name of the food item and to represent the name column in database as well.<br>
 -> price - to hold the price of particular item.<br>
@@ -12,6 +14,7 @@ Use in the application of this class/-
 ->Adding Food Items: When a user chooses to add a food item, a new instance of FoodItem is created and persisted to the database.
 ->Viewing Food Items: Instances of FoodItem are retrieved from the database and displayed to the user.
 
+_____________________________________________________________________________________
 
 In the second class i.e in the Order class I've used the feilds such as - 
 
@@ -24,6 +27,7 @@ Use in application of this class - <br>
 When a user places an order, a new instance of Order is created, associated with the selected FoodItem objects, and persisted to the database.
 Instances of Order are retrieved from the database and displayed, including the associated food items.
 
+_____________________________________________________________________________________
 
 The FoodOrder class serves as the entry point of the application and provides a simple menu-driven interface to interact with the database. 
 
@@ -36,6 +40,7 @@ Users can perform the following operations:
 5.Exit the application.
 
 Displays the above menu to the user and takes input to perform one of the operations.
+
 1.Add Food Item:<br>
 Reads food item details (name and price) from the user.<br>
 Creates a new FoodItem object and persists it to the database.<br>
