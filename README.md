@@ -1,10 +1,12 @@
 Inside the src/main folder I've created the two classes which are entity classes which are going to represent the two tables named FoodItems and Orders in the foodDeliveryApp database specified in pom.xml file.
 
-In the first class i.e in the FoodItem class I've used the feilds such as - 
-id - to represent the primary key column of the table with the help of @Id annotation
-name - to hold the name of the food item and to represent the name column in database as well
-price - to hold the price of particular item 
-order - this fied is used to creatr has a relationship with the Order class to map both classes with help of @ManyToOne along with @Joincolumn which is going to specify the column which is building the relationship
+In the first class i.e in the FoodItem class I've used the feilds such as  :-
+_____________________________________________________________________________________
+-> id - to represent the primary key column of the table with the help of @Id annotation.
+-> name - to hold the name of the food item and to represent the name column in database as well.
+-> price - to hold the price of particular item.
+-> order - this fied is used to creatr has a relationship with the Order class to map both classes with help of @ManyToOne along with @Joincolumn which is going to specify the column which is building the     
+   relationship.
 
 Use in the application of this class/-
 Adding Food Items: When a user chooses to add a food item, a new instance of FoodItem is created and persisted to the database.
@@ -14,6 +16,7 @@ Viewing Food Items: Instances of FoodItem are retrieved from the database and di
 In the second class i.e in the Order class I've used the feilds such as - 
 
 id - to represent the primary key column of the table with the help of @Id annotation
+
 customer_name - to hold the name of the customer and to represent the respective column in database as well
 address - to hold the address of particular customer 
 foodItems - of type list<FoodItem> bcz an order can consist of multiple items 
