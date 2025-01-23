@@ -9,8 +9,8 @@ ________________________________________________________________________________
    relationship.
 
 Use in the application of this class/-
-Adding Food Items: When a user chooses to add a food item, a new instance of FoodItem is created and persisted to the database.
-Viewing Food Items: Instances of FoodItem are retrieved from the database and displayed to the user.
+->Adding Food Items: When a user chooses to add a food item, a new instance of FoodItem is created and persisted to the database.
+->Viewing Food Items: Instances of FoodItem are retrieved from the database and displayed to the user.
 
 
 In the second class i.e in the Order class I've used the feilds such as - 
