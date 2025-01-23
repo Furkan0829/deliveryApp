@@ -1,3 +1,14 @@
+The Food Ordering System is a console-based application developed using Java and Hibernate JPA for managing a simplified restaurant ordering process. It provides a menu-driven interface for adding food items, placing customer orders, and viewing menu and order details. The application utilizes Hibernate ORM for seamless interaction with the database, allowing for data persistence and retrieval.
+
+Technologies Used<br>
+Programming Language: Java<br>
+Database Interaction: Hibernate JPA <br>
+Database: MySQL <br>
+Console-based Interface: Simple menu-driven design for interaction.<br>
+
+_____________________________________________________________________________________
+
+
 Inside the src/main folder I've created two classes which are entity classes which are going to represent the tables named FoodItems and Orders in the foodDeliveryApp database specified in pom.xml file.
 
 _____________________________________________________________________________________
